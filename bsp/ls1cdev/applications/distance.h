@@ -5,8 +5,8 @@
 #include <rtthread.h>
 #include <ls1c_delay.h>
 
-#define gpio58 ECHO_Reci
-#define gpio59 TRIG_Send
+#define ECHO_Reci gpio58
+#define TRIG_Send gpio59
 
 timer_info_t timer_info_my;
 

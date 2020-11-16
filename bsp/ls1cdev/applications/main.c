@@ -19,6 +19,11 @@ pin_set_remap(gpio60,PIN_REMAP_FIFTH);
 pin_set_remap(gpio61,PIN_REMAP_FIFTH);
 uart_init(LS1C_UART5);
 
+pin_set_remap(gpio62,PIN_REMAP_FIFTH);
+pin_set_remap(gpio63,PIN_REMAP_FIFTH);
+uart_init(LS1C_UART6);
+
+
 pin_set_remap(gpio74,PIN_REMAP_FOURTH);
 pin_set_remap(gpio75,PIN_REMAP_FOURTH);
 
